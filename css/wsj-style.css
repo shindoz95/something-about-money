@@ -31,11 +31,11 @@ body {
 /* Article Content */
 .post-content {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    padding: 0; /* Removed padding */
+    background-color: transparent; /* Matches the body background */
+    border: none; /* Removes the white border */
+    color: #333; /* Ensures good contrast for text */
 }
 .post-content p {
     margin-bottom: 1rem;
