@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5e6; /* Light yellow paper-like background */
+    color: #333; /* Dark gray for readable text */
+}
+
+/* Header Styling */
+.post-header {
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1.5rem;
+}
+.post-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+.post-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Article Content */
+.post-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.post-content p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+/* Footer */
+.post-footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: #eee;
+    font-size: 0.85rem;
+    color: #555;
+}
