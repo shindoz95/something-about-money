@@ -26,10 +26,11 @@
     <footer class="post-footer">
         <p>&copy; 2024 My Money Blog. All rights reserved.</p>
     </footer>
-    <audio id="bg-music" autoplay loop style="display: none;">
-    <source src="../audio/Skellige.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
-<audio id="bg-music" autoplay loop muted style="display: none;">
+    <p><audio id="loop-limited" controls="controls" autoplay style="width: 6em;height:20px;"><source src="../audio/Skellige.mp3" type="audio/mpeg" /></audio><br />
+<script>
+var loopLimit = 5;
+var loopCounter = 0;
+document.getElementById('loop-limited').addEventListener('ended', function(){if (loopCounter < loopLimit){this.currentTime = 0;this.play();loopCounter++;}
+}, false);</script></p>
 </body>
 </html>
