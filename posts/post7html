@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI is real and it's coming</title>
+    <link rel="stylesheet" href="../css/wsj-style.css">
+</head>
+<body>
+    <header class="post-header">
+        <h1 class="post-title">AI is real and it's coming - bend your knees</h1>
+        <p class="post-meta">December 25, 2024</p>
+    </header>
 
+    <article class="post-content">
+        <p style="font-size: 18px; font-weight: bold;">
+        Saw this video, which turns Witcher game into fractions of 1980s movie scenes. As someone who likes Witcher 3, I don't feel offended at all, surprisingly.
+        </p>
+        <div class="video-container">
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/fTo7VUSibK4" 
+        title="THE WITCHER 3: Wild Hunt - 1980s Fantasy Adventure Movie" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+</div>
+        <p>
+        AI is real, and people are fervently exploring its applications for their own interests. We are merely witnessing its very beginning. New platforms will emerge—a new Netflix, perhaps new movie stars, and so much more.
+        Watch closely—this is the future. And this is why, even at a P/E of 55, Nvidia is probably still a buy. Its P/E ratio is shrinking because earnings are outpacing its stock price. People are uncertain about near-term growth, and such concerns are legitimate. But 10 years from now, the world will be entirely different, and Nvidia and OpenAI (perhaps) will be major contributors.
+        </p>
+    </article>
+
+    <footer class="post-footer">
+        <p>&copy; 2024 My Money Blog. All rights reserved.</p>
+    </footer>
+    <audio loop autoplay>
+    <source src="https://downloads.khinsider.com/game-soundtracks/album/the-witcher-3-wild-hunt-single-03-the-wolven-storm-2015/01.%2520Wolven%2520Storm%2520%2528English%2529.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
