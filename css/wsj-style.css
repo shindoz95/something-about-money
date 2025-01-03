@@ -28,6 +28,16 @@ body {
     font-style: italic;
 }
 
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
 /* Article Content */
 .post-content {
     max-width: 800px;
