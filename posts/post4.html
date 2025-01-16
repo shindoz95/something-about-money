@@ -6,16 +6,16 @@
     <title>CD Projekt Red</title>
     <link rel="stylesheet" href="../css/wsj-style.css">
     <script>
-    function checkPassword() {
-        var password = prompt("Enter the password:");
-        var hashedPassword = bW9uZXk=; // Encode input as Base64
+        function checkPassword() {
+            var password = prompt("Enter the password:");
+            var hashedPassword = btoa(password); // Encode input as Base64
 
-        if (hashedPassword !== "bW9uZXk=") {  // "mySecret123" in Base64
-            alert("Incorrect password!");
-            window.location.href = "https://shindoz95.github.io/something-about-money/main.html"; // Redirect if incorrect
+            if (hashedPassword !== "bW9uZXk=") {  // "money" encoded in Base64
+                alert("Incorrect password! Redirecting...");
+                window.location.href = "index.html"; // Redirect to homepage if incorrect
+            }
         }
-    }
-</script>
+    </script>
 </head>
 <body>
     <header class="post-header">
