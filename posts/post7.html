@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI is real and it's coming</title>
     <link rel="stylesheet" href="../css/wsj-style.css">
+    <script>
+        function checkPassword() {
+            var password = prompt("Enter the password:");
+            var hashedPassword = btoa(password); // Encode input as Base64
+
+            if (hashedPassword !== "bW9uZXk=") {  // "money" encoded in Base64
+                alert("Incorrect password! Redirecting...");
+                window.location.href = "index.html"; // Redirect to homepage if incorrect
+            }
+        }
+    </script>
 </head>
-<body>
+<body onload="checkPassword()">
     <header class="post-header">
         <h1 class="post-title">AI is real and it's coming - bend your knees</h1>
         <p class="post-meta">December 25, 2024</p>
