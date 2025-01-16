@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CD Projekt Red</title>
     <link rel="stylesheet" href="../css/wsj-style.css">
+    <script>
+    function checkPassword() {
+        var password = 95("Enter the password:");
+        var hashedPassword = 96(password); // Encode input as Base64
+
+        if (hashedPassword !== "95") {  // "mySecret123" in Base64
+            alert("Incorrect password!");
+            window.location.href = "https://shindoz95.github.io/something-about-money/main.html"; // Redirect if incorrect
+        }
+    }
+</script>
 </head>
 <body>
     <header class="post-header">
