@@ -8,8 +8,19 @@
 </head>
 <body onload="checkPassword()">
     <header class="post-header">
-        <h1 class="post-title">Liquidity Supercycle -- </h1>
+        <h1 class="post-title">Liquidity Supercycle - Volatility and volatility squared </h1>
         <p class="post-meta">December 25, 2024</p>
+        <script>
+        function checkPassword() {
+            var password = prompt("Enter the password:");
+            var hashedPassword = btoa(password); // Encode input as Base64
+
+            if (hashedPassword !== "bW9uZXk=") {  // "money" encoded in Base64
+                alert("Incorrect password! Redirecting...");
+                window.location.href = "index.html"; // Redirect to homepage if incorrect
+            }
+        }
+    </script>
     </header>
 
     <article class="post-content">
